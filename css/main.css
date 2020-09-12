@@ -1,0 +1,148 @@
+.main {
+  /* padding: 0px 4rem; */
+  height: 100%;
+  /* border: 1px solid red; */
+}
+
+.main .background-img {
+  height: 35.5rem;
+  margin-bottom: 6rem;
+  background-image: url(../images/bg-intro-mobile.svg);
+}
+.hero {
+  text-align: center;
+  padding-bottom: 9rem;
+}
+p {
+  color: var(--grayishBlue);
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 3.9rem 0rem;
+}
+
+.button {
+  background: linear-gradient(to right, var(--limeGreen), var(--brightCyan));
+  display: inline-block;
+  color: white;
+  border-radius: 50px;
+  font-size: 14px;
+  padding: 1.5rem 3.6rem;
+}
+
+.choose,
+.article {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.choose {
+  /* padding: 7rem 0rem; */
+  text-align: center;
+  background-color: var(--lightGrayishBlue);
+}
+
+.choose img {
+  width: 7.5rem;
+}
+
+.choose h3 {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 3rem;
+}
+
+.choose div {
+  margin-top: 4rem;
+  /* border: 1px solid black; */
+}
+.choose p {
+  margin: 0px;
+}
+
+.article {
+  /* border: 1px solid black; */
+  background-color: var(--veryLightGray);
+  padding-bottom: 8rem;
+}
+.article img {
+  margin-bottom: 3rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.author {
+  font-size: 0.6rem;
+  color: var(--grayishBlue);
+}
+.article h2 {
+  margin-bottom: 4rem;
+}
+.article h3,
+.article p {
+  text-align: left;
+  font-size: 1.6rem;
+}
+.article p {
+  margin-top: 1.6rem;
+  line-height: 1.2;
+}
+.article > div {
+  background-color: var(--white);
+  margin-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.footer {
+  /* height: 50rem; */
+  background-color: var(--darkBlue);
+  color: var(--white);
+  text-align: center;
+  padding: 4.3rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer img,
+.footer .social-media img {
+  filter: invert(98%) sepia(32%) saturate(254%) hue-rotate(261deg)
+    brightness(113%) contrast(100%);
+
+  /* margin: 1rem auto; */
+}
+.footer img {
+  width: 13.5rem;
+}
+.footer .social-media {
+  margin: 3.5rem 0rem;
+  width: 18.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .social-media a {
+  width: 2.8rem;
+}
+
+.footer .social-media img {
+  width: 2.8rem;
+}
+
+.footer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin-top: 0px;
+}
+.footer-nav li {
+  margin-bottom: 2.2rem;
+}
+.footer ul li a {
+  color: var(--white);
+}
+
+.copyright {
+  margin: 0px;
+  margin-top: 3rem;
+}

@@ -1,0 +1,135 @@
+/* DESKTOP VERSION */
+/* I have changed the break point from what was put 375px */
+@media (min-width: 961px) {
+  .mobile-only {
+    display: none;
+  }
+  .desktop-only {
+    display: block;
+  }
+
+  .main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    color: var(--grayishBlue);
+  }
+
+  .main-nav a {
+    color: var(--grayishBlue);
+    font-weight: 300;
+  }
+  .main-nav li {
+    margin-right: 2rem;
+  }
+
+  .main {
+    padding-top: 5rem;
+  }
+
+  .hero {
+    /* margin-top: 2rem; */
+    display: flex;
+
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+  .hero div {
+    /* border: 1px solid black; */
+    text-align: left;
+  }
+  .hero .hero-2 {
+    padding-top: 4rem;
+    padding-left: 15rem;
+    min-width: 42.4rem;
+  }
+  .hero-2 h1 {
+    text-align: left;
+  }
+
+  .hero-2 div {
+    margin-top: 4rem;
+  }
+  .background-img {
+    background-image: none;
+    background-image: url(../images/bg-intro-desktop.svg);
+    /* background-position: right 20px bottom 10px; */
+  }
+
+  /*  */
+  .choose,
+  .choose h2,
+  .choose p,
+  .choose h3 {
+    text-align: left;
+  }
+
+  .choose > div {
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+  }
+  .choose > div div {
+    /* border: 1px solid black; */
+    margin-left: 1em;
+    font-size: 1.4rem;
+  }
+
+  .choose > div div h3 {
+    /* border: 1px solid black; */
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .choose > div div p {
+    font-size: 1.2rem;
+  }
+
+  .choose {
+    padding: 10.3rem;
+  }
+  .article {
+    padding-left: 10.3rem;
+    padding-right: 10.3rem;
+  }
+
+  .article > div {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 1em; */
+  }
+
+  .article h2 {
+    text-align: left;
+  }
+  .article > div h3 {
+    font-size: 1.4rem;
+  }
+
+  .article > div p {
+    font-size: 1.2rem;
+  }
+
+  .article > div div {
+    /* margin-left: 1em; */
+    margin: 0.5em;
+  }
+  .article .container {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .article > div div img {
+    width: 186px !important;
+  }
+
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer ul {
+    flex-direction: row;
+  }
+}

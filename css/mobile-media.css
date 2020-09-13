@@ -1,0 +1,11 @@
+/* MOBILE VERSION */
+/* I have changed the break point from what was put 375px */
+@media (max-width: 961px) {
+  .mobile-only {
+    display: block;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+}

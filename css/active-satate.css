@@ -1,0 +1,17 @@
+.button:hover {
+  opacity: 0.7;
+  color: white !important;
+}
+.footer .social-media a:hover {
+  filter: invert(98%) sepia(32%) saturate(254%) hue-rotate(261deg)
+    brightness(113%) contrast(100%);
+}
+.footer a:hover {
+  color: var(--limeGreen);
+}
+
+.main-nav li:hover {
+  position: relative;
+  padding: 2em 0em;
+  border-bottom: 3px solid var(--limeGreen);
+}

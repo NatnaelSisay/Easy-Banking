@@ -8,4 +8,15 @@
   .desktop-only {
     display: none;
   }
+
+  .footer .footer-nav {
+    margin-left: 0px;
+  }
+  .footer .footer-nav div {
+    margin: 0px !important;
+    text-align: center;
+  }
+  .footer .cta {
+    text-align: center !important;
+  }
 }

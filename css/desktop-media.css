@@ -15,7 +15,9 @@
     font-size: 1.2rem;
     color: var(--grayishBlue);
   }
-
+  #main-nav {
+    display: block;
+  }
   .main-nav a {
     color: var(--grayishBlue);
     font-weight: 300;
